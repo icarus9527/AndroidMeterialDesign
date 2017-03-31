@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--Tool中action按钮只会显示图标，菜单中的action按钮只会显示文字-->
+    <item
+        android:id="@+id/menu_toolbar_upload"
+        android:icon="@drawable/upload"
+        android:title="上传"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_toolbar_add"
+        android:icon="@drawable/add"
+        android:title="添加"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_toolbar_search"
+        android:icon="@drawable/search"
+        android:title="搜索"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_toolbar_setting"
+        android:icon="@drawable/setting"
+        android:title="设置"
+        app:showAsAction="never"/>
+</menu>
